@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * print_binary - prints a number in base 2
  * @l: va_list arguments from _printf
