@@ -1,5 +1,7 @@
 #include "main.h"
 
+int handle_width(va_list args, const char *modifier, char *index);
+
 /**
  * handle_width - Matches a width modifier with its corresponding value.
  * @args: A va_list of arguments.
