@@ -75,8 +75,4 @@ int print_address(va_list l, flags_t *f);
 /* print_percent */
 int print_percent(va_list l, flags_t *);
 
-/* handelers */
-unsigned int (*handle_specifiers(const char *specifier))(va_list, buffer_t *, unsigned char, int, int, unsigned char);
-unsigned char handle_length(const char *modifier, char *index);
-
 #endif
